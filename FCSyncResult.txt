@@ -1,0 +1,9 @@
+Files that was not added to file catalogue: 
+/TestFolda/1folda/1.txt
+/TestFolda/2folda/21folda/212.txt
+/TestFolda/2folda/22folda/223.root
+Addto count:3
+
+Files missing from the EOS: 
+/TestFolda/1folda/123123.txt
+Missing count:1
