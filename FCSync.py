@@ -1,8 +1,10 @@
 import os
-
+#import DIRAC.DataManagementSystem.Client.ConsistencyInspector
 # prepare list of files from dirac file catalogue. FClist
+#insp = DIRAC.DataManagementSystem.Client.ConsistencyInspector.ConsistencyInspector()
 FCfile = open('FClist', 'r')
 FClist = []
+#FClist = insp.get_lfns
 for line in FCfile:
     line = line.strip()
     FClist.append(line)
